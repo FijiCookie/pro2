@@ -4,4 +4,4 @@
 
 ## Flowdiagramm
 
-## Datenein/ausgabe
+## Dateneingabe / Datenverarbeitung
