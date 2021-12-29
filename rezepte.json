@@ -1,0 +1,130 @@
+{
+    "Gurkensalat": {
+        "Zutaten": {
+            "Gurke": [
+                1,
+                "St\u00fcck"
+            ],
+            "Knoblauch": [
+                0.5,
+                "St\u00fcck"
+            ],
+            "Pfefferminze": [
+                1,
+                "St\u00fcck"
+            ],
+            "Quark": [
+                50,
+                "g"
+            ],
+            "Salz": [
+                1,
+                "g"
+            ]
+        },
+        "anzahl_personen": 2,
+        "titel": "Gurkensalat"
+    },
+    "Kartoffelgratin": {
+        "Zutaten": {
+            "Bouillon": [
+                75,
+                "cl"
+            ],
+            "Kartoffel": [
+                300,
+                "g"
+            ],
+            "Knoblauch": [
+                1,
+                "St\u00fcck"
+            ],
+            "Parmesan": [
+                100,
+                "g"
+            ],
+            "Peterli": [
+                10,
+                "g"
+            ],
+            "Rahm": [
+                75,
+                "cl"
+            ],
+            "Rosmarin": [
+                10,
+                "g"
+            ],
+            "Speck": [
+                25,
+                "g"
+            ]
+        },
+        "anzahl_personen": 2,
+        "titel": "Kartoffel Gratin"
+    },
+    "Kn\u00f6del": {
+        "Zutaten": {
+            "Butter": [
+                100,
+                "g"
+            ],
+            "Ei": [
+                2,
+                "St\u00fcck"
+            ],
+            "Milch": [
+                50,
+                "cl"
+            ],
+            "Mutchli": [
+                10,
+                "St\u00fcck"
+            ],
+            "Peffer": [
+                1,
+                "g"
+            ],
+            "Peterli": [
+                1,
+                "St\u00fcck"
+            ],
+            "Salz": [
+                1,
+                "g"
+            ]
+        },
+        "anzahl_personen": 4,
+        "titel": "Kn\u00e4del"
+    },
+    "R\u00fcebliaufstrich": {
+        "Zutaten": {
+            "Cashew N\u00fcsse": [
+                40,
+                "g"
+            ],
+            "Karotten": [
+                2,
+                "St\u00fcck"
+            ],
+            "Oliven\u00f6l": [
+                10,
+                "g"
+            ],
+            "Salz": [
+                1,
+                "g"
+            ],
+            "Tomatenpuree": [
+                100,
+                "g"
+            ],
+            "Zwiebel": [
+                1,
+                "St\u00fcck"
+            ]
+        },
+        "anzahl_personen": 2,
+        "titel": "R\u00fcebliaufstrich"
+    }
+}

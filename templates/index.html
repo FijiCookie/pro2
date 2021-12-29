@@ -5,7 +5,9 @@
     <title>index</title>
 </head>
 <body>
-    <form method="POST">
+<form action="{{url_for('hello')}}" method="post">
+    <input type="text" name="menge" placeholder="Menge einfügen">
+    <input type="text" name="mass" placeholder="Masse einfügen">
     <input type="text" name="artikel" placeholder="Artikel einfügen">
     <button type="submit">Senden</button>
 </form>
