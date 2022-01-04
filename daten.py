@@ -1,5 +1,6 @@
 import json
 
+
 def speichern(file, key, menge, mass, article):
     try:
         with open(file) as open_file:
@@ -24,7 +25,7 @@ def zutaten_speichern(menge, mass, article):
 
 
 def zutaten_laden():
-    file_name = "aktivitaeten_2.json"
+    file_name = "zutaten_daten_2.json"
 
     try:
         with open(file_name) as open_file:
