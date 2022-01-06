@@ -16,10 +16,12 @@ def hello():
 
         ziel_article = request.form['article']
 
-        daten.zutaten_speichern(ziel_menge, ziel_mass, ziel_article)
+        alles= [["ziel_menge1", "ziel_mass1", "ziel_article1"], ["ziel_menge2", "ziel_mass2", "ziel_article2"], ["ziel_menge3", "ziel_mass3", "ziel_article3"]]
+
+        daten.zutaten_speichern(alles)
 
         return render_template("foodstorage.html",
-                               artikelausgabe=ziel_menge + " " + ziel_mass + " " + ziel_article)
+                               artikelausgabe=(alles))
 
     return render_template("index.html")
 

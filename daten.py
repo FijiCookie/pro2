@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 
 
 def speichern(file, key, menge, mass, article):
@@ -20,9 +21,14 @@ def speichern(file, key, menge, mass, article):
 
 def zutaten_speichern(menge, mass, article):
     file_name = "zutaten_daten.json"
-    speichern(file_name, menge, mass, article)
-    return menge, mass, article
-
+    for zutat in alles:
+        key = datetime.now()
+        menge = zutat[0]
+        mass = zutat[0]
+        article = zutat[0]
+        speichern(file_name, key, menge, mass, article)
+        return menge, mass, article
+ 
 
 def zutaten_laden():
     file_name = "zutaten_daten_2.json"
